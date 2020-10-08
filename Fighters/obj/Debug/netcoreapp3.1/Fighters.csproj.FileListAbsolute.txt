@@ -1,0 +1,13 @@
+C:\Users\joel.herfindal\Documents\Programering\Slump fight\Fighters\bin\Debug\netcoreapp3.1\Fighters.exe
+C:\Users\joel.herfindal\Documents\Programering\Slump fight\Fighters\bin\Debug\netcoreapp3.1\Fighters.deps.json
+C:\Users\joel.herfindal\Documents\Programering\Slump fight\Fighters\bin\Debug\netcoreapp3.1\Fighters.runtimeconfig.json
+C:\Users\joel.herfindal\Documents\Programering\Slump fight\Fighters\bin\Debug\netcoreapp3.1\Fighters.runtimeconfig.dev.json
+C:\Users\joel.herfindal\Documents\Programering\Slump fight\Fighters\bin\Debug\netcoreapp3.1\Fighters.dll
+C:\Users\joel.herfindal\Documents\Programering\Slump fight\Fighters\bin\Debug\netcoreapp3.1\Fighters.pdb
+C:\Users\joel.herfindal\Documents\Programering\Slump fight\Fighters\obj\Debug\netcoreapp3.1\Fighters.csprojAssemblyReference.cache
+C:\Users\joel.herfindal\Documents\Programering\Slump fight\Fighters\obj\Debug\netcoreapp3.1\Fighters.AssemblyInfoInputs.cache
+C:\Users\joel.herfindal\Documents\Programering\Slump fight\Fighters\obj\Debug\netcoreapp3.1\Fighters.AssemblyInfo.cs
+C:\Users\joel.herfindal\Documents\Programering\Slump fight\Fighters\obj\Debug\netcoreapp3.1\Fighters.csproj.CoreCompileInputs.cache
+C:\Users\joel.herfindal\Documents\Programering\Slump fight\Fighters\obj\Debug\netcoreapp3.1\Fighters.dll
+C:\Users\joel.herfindal\Documents\Programering\Slump fight\Fighters\obj\Debug\netcoreapp3.1\Fighters.pdb
+C:\Users\joel.herfindal\Documents\Programering\Slump fight\Fighters\obj\Debug\netcoreapp3.1\Fighters.genruntimeconfig.cache
