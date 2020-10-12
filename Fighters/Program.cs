@@ -9,8 +9,8 @@ namespace Fighters
             Random Fighter1DMG = new Random();
             Random Fighter2DMG = new Random();
 
-            string Fighter1 = "Jotaro";
-            string Fighter2 = "DIO";
+            string Fighter1 = "Gurt";
+            string Fighter2 = "Bertil";
 
             int Fighter1HP = 200;
             int Fighter2HP = 200;
@@ -51,7 +51,7 @@ namespace Fighters
             }
             else
             {
-                Console.WriteLine("Both fighters fought valiantly to the death! Its a draw!");
+                Console.WriteLine("IT IS A DRAW!!!");
                 Console.ReadLine();
             }
 
