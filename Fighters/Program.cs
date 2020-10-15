@@ -6,15 +6,15 @@ namespace Fighters
     {
         static void Main(string[] args)
         {
-            Random Fighter1DMG = new Random();
-            Random Fighter2DMG = new Random();
+            Random FighterDMG = new Random();
 
-            string Fighter1 = "Gurt";
-            string Fighter2 = "Bertil";
+            string Fighter1 = "Fighter 1"; //fighter 1s namn, valfri
+            string Fighter2 = "Fighter 2"; //fighter 2s namn, valfri
 
-            int Fighter1HP = 200;
-            int Fighter2HP = 200;
+            int Fighter1HP = 150; //fighter 1s HP, valfri
+            int Fighter2HP = 150; //fighter 2s HP, valfri
 
+            // @ före "" betyder att den tolkar texten literally, struntar i specialtecken som backslash (\\ eller //)
             Console.WriteLine($"{Fighter1}'s HP: {Fighter1HP}");
             Console.WriteLine($"{Fighter2}'s HP: {Fighter2HP}");
             Console.WriteLine("START!!!");
@@ -22,8 +22,8 @@ namespace Fighters
 
             while (Fighter1HP > 0 && Fighter2HP > 0) // så länge dom lever, alltså deras hp är över 0, så kommer dom fortsätta att spöa skiten ur varandra
             {
-                int DMG1 = Fighter1DMG.Next(1, 50); //random dmg fighter 1 gör per runda
-                int DMG2 = Fighter2DMG.Next(1, 50); //random dmg fighter 2 gör per runda
+                int DMG1 = FighterDMG.Next(1, 50); //random dmg fighter 1 gör per runda
+                int DMG2 = FighterDMG.Next(1, 50); //random dmg fighter 2 gör per runda
 
                 Fighter1HP = Fighter1HP - DMG2; //Hur mycket hälsa fighter 1 har per runda, hur mycket dmg dom tar, och deras nya lägre hälsa infoör nästa runda
                 Console.WriteLine($"{Fighter2} hit {Fighter1} for {DMG2} damage."); //Beskriver hur mycket dmg de tar
@@ -51,7 +51,7 @@ namespace Fighters
             }
             else
             {
-                Console.WriteLine("IT IS A DRAW!!!");
+                Console.WriteLine("IT IS A DRAW!!!"); //Om ingen vinner så är det draw. 
                 Console.ReadLine();
             }
 
